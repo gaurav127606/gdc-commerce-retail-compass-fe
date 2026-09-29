@@ -269,6 +269,12 @@ if (IS_UE) {
   await import(`${window.hlx.codeBasePath}/scripts/ue.js`).then(({ default: ue }) => ue());
 }
 
+// Retail Compass — App Builder actions base URL for the store-locator block (RC-9/RC-10).
+window.retailCompassConfig = {
+  actionsBaseUrl: 'https://293924-gauravstarterkittest-integration.adobeioruntime.net/api/v1/web/retailer-storelocator',
+};
+
+
 loadPage();
 
 (async function loadDa() {
