@@ -1,0 +1,65 @@
+.store-locator-block {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.store-locator-form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.store-locator-form input {
+    flex: 1;
+    padding: 8px 10px;
+}
+
+.store-locator-status {
+    font-size: 14px;
+    color: var(--color-neutral-600, #555);
+}
+
+.store-locator-selected-banner {
+    background: var(--color-brand-100, #eef4ff);
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+}
+
+.store-locator-selected-banner button {
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.store-locator-results {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.store-locator-result {
+    border-bottom: 1px solid var(--color-neutral-200, #e6e6e6);
+    padding: 12px 0;
+}
+
+.store-locator-result h3 {
+    margin: 0 0 4px;
+    font-size: 16px;
+}
+
+.store-locator-distance {
+    font-size: 13px;
+    color: var(--color-neutral-600, #555);
+}
+
+.store-locator-hours {
+    font-size: 13px;
+}
+
+.store-locator-select {
+    margin-top: 6px;
+}
+
+.store-locator-empty {
+    color: var(--color-neutral-600, #555);
+}
